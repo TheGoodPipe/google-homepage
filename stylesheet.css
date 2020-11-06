@@ -33,3 +33,27 @@ a:hover, a:focus {
 
 /* ESTILOS DE IMAGEN */
 
+.menu-apps {
+    width: 20px;
+    height: 20px;
+}
+
+.menu-usuario {
+    width: 32px;
+    height: 32px;
+}
+
+.google-logo {
+    width: 272px;
+}
+
+#search-icon {
+    width: 20px;
+    color: var(--color-midgray);
+    fill: currentColor;
+}
+
+#search-mic {
+    width: 24px;
+
+}
