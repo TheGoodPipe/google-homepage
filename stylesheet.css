@@ -30,8 +30,13 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 
+#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
-/* ESTILOS DE IMAGEN */
+/* IMAGES */
 
 .menu-apps {
     width: 20px;
@@ -56,4 +61,41 @@ a:hover, a:focus {
 #search-mic {
     width: 24px;
 
+}
+
+
+/* HEADER */
+
+#header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#header-left {
+    position: relative;
+    top: 16px;
+    font-size: 13px;
+}
+
+#header-right {
+    position: relative;
+    top: 16px;
+    font-size: 13px;
+}
+
+
+/* MAIN */
+
+#main {
+    position: relative;
+    top: 30vh;
+}
+
+
+/* FOOTER */
+
+#footer {
+    position: fixed;
+    bottom: 0;
 }
