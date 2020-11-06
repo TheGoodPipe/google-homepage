@@ -70,12 +70,19 @@ a:hover, a:focus {
     position: absolute;
     top: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header-left {
     position: relative;
     top: 16px;
     font-size: 13px;
+}
+
+#header-left a {
+    margin: 0 0 0 25px;
 }
 
 #header-right {
