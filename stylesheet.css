@@ -37,6 +37,12 @@ a:hover, a:focus {
     width: 100%;
 }
 
+input[type=text], i {
+    width: 95%;
+    border: none;
+    font-size: 16px;
+}
+
 /* IMAGES */
 
 .menu-apps {
@@ -63,6 +69,7 @@ a:hover, a:focus {
 
 .google-logo {
     width: 272px;
+    height: 92px;
 }
 
 #search-icon {
@@ -133,9 +140,34 @@ a:hover, a:focus {
 
 #main {
     position: relative;
-    top: 30vh;
+    text-align: center;
+    margin: 89px 0 0 0;
 }
 
+#main .google-logo {
+    margin-top: 109px;
+}
+
+#search-bar {
+    position: relative;
+    height: 44px;
+    width: auto;
+    max-width: 484px;
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-shrink: 1; */
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+#search-input {
+    display: inline-block;
+    min-width: 412px;
+    max-width: 500px;
+}
 
 /* FOOTER */
 
